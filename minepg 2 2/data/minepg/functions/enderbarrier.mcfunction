@@ -1,0 +1,2 @@
+execute as @a at @s[nbt={Inventory:[{tag : {endermeat:1b}, Count:30b}]}] run fill -28 182 213 -26 182 212 air replace
+execute as @a at @s[nbt={Inventory:[{tag : {endermeat:1b}, Count:30b}]}] run clear @s phantom_membrane

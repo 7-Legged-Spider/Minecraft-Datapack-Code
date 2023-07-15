@@ -1,0 +1,60 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 10,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Alien Machine Plating\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:blaze_rod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Alien Machine Rod\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Alien Machine Wire\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

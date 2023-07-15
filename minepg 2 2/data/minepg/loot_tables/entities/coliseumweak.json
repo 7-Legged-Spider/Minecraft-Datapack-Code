@@ -1,0 +1,25 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:amethyst_shard",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Krisold\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

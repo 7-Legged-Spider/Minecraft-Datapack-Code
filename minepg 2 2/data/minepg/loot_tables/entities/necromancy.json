@@ -1,0 +1,70 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Necromancer\\'s Staff\",\"italic\":false}',Lore:['{\"text\":\"Summons four weak Skelebones\",\"italic\":false}','{\"text\":\"to attack other players.\",\"italic\":false}']},Unbreakable:1b,necromancy:1b}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Soul Hook\",\"italic\":false}',Lore:['{\"text\":\"Allows you to hook enemies\",\"italic\":false}','{\"text\":\"and track their location.\",\"italic\":false}','{\"text\":\"Also gives a strong\",\"italic\":false}','{\"text\":\"health regen upon melee\",\"italic\":false}','{\"text\":\"damage. Can absorb other\",\"italic\":false}','{\"text\":\"Soul Hooks and XP to repair.\",\"italic\":false}']},Unbreakable:0b,CustomModelData:2,necromancy:2b,Enchantments:[{id:\"minecraft:mending\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;449632954,-1697624976,-1938686958,-2140051496],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;-527951368,-1325186333,-1089121592,-1393288138],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;1388694065,1000235,-1160935896,-288911033],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:25,Operation:0,UUID:[I;-1863195807,1892369688,-1420815968,-683002095],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Necromancer\\'s Bottle\",\"italic\":false}',Lore:['{\"text\":\"Smash this bottle to acquire\",\"italic\":false}','{\"text\":\"some spare XP to use for\",\"italic\":false}','{\"text\":\"repairing Soul Hooks.\",\"italic\":false}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Necromancer\\'s Bottle\",\"italic\":false}',Lore:['{\"text\":\"Smash this bottle to acquire\",\"italic\":false}','{\"text\":\"some spare XP to use for\",\"italic\":false}','{\"text\":\"repairing Soul Hooks.\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

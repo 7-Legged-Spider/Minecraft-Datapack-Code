@@ -1,0 +1,1 @@
+execute as @e[tag=irwbossdeath] run fill 100 50 19 101 49 19 air replace

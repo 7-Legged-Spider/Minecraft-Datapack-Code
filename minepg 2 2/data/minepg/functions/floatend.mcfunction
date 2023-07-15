@@ -1,0 +1,1 @@
+execute as @a at @s[nbt={Inventory:[{id:"minecraft:stone_button", Count:1b, tag:{bedrockemissary:1b}}]}, team=bes, tag=besfloat] run tag @s remove besfloat

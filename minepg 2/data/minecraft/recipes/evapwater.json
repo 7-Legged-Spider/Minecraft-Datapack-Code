@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " # ",
+        " F "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:powder_snow_bucket"
+        },
+        "F": {
+            "item": "minecraft:flint_and_steel"
+        }
+    },
+    "result": {
+        "item": "minecraft:water_bucket",
+        "count": 5
+    }
+}

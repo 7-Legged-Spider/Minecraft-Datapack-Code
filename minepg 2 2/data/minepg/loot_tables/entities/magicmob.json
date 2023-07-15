@@ -1,0 +1,66 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 5,
+        "bonus_rolls": {
+          "min": 1,
+          "max": 10
+        },
+        "entries": [
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "minecraft:magenta_dye",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Magical Essence\",\"italic\":false}'}}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:magenta_dye",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Magical Essence\",\"italic\":false}'}}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 4,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

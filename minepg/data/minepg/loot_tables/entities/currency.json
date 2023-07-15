@@ -1,0 +1,65 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 9,
+            "name": "minecraft:leather",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 4,
+            "name": "minecraft:leather",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:leather",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "minecraft:leather",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

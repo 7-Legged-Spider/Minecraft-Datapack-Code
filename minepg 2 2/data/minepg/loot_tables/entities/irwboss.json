@@ -1,0 +1,131 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Poisoned Flame Spear\",\"italic\":false}',Lore:['{\"text\":\"A spear which was \",\"italic\":false}','{\"text\":\"cooled in poison.\",\"italic\":false}','{\"text\":\"Burning hot poison.\",\"italic\":false}']},HideFlags:1,poisonspear:1b,Enchantments:[{id:\"minecraft:knockback\",lvl:10s},{id:\"minecraft:fire_aspect\",lvl:100s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:15,Operation:0,UUID:[I;389114307,-395362162,-1672553623,-499361535],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:50,Operation:0,UUID:[I;1210073347,-2136915410,-1789203502,374909268],Slot:\"mainhand\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Lost Iron Spear\",\"italic\":false}',Lore:['{\"text\":\"A spear weapon made\",\"italic\":false}','{\"text\":\"of an unknown material.\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:15,Operation:0,UUID:[I;1591595252,1729578288,-1190709320,-1459538922],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:60,Operation:0,UUID:[I;1764565313,-1176092307,-1825259578,697939991],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;-1453471034,-221821006,-1100731848,-2126125176],Slot:\"mainhand\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:blaze_powder",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Powder Gauntlet\",\"italic\":false}',Lore:['{\"text\":\"A shard-like gauntlet.\",\"italic\":false}']},HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:10s},{id:\"minecraft:fire_aspect\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:60,Operation:0,UUID:[I;1467288564,-1102360790,-1570120668,1966212300],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:40,Operation:0,UUID:[I;585868999,1540835639,-1763070767,-336797693],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;-684722072,-2086711699,-2037578358,53086830],Slot:\"mainhand\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:ice",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Frost Gauntlet\",\"italic\":false}',Lore:['{\"text\":\"Freeze-dry your enemies.\",\"italic\":false}']},HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:80,Operation:0,UUID:[I;1116729164,-523155436,-1180742553,552162021],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:30,Operation:0,UUID:[I;1982541356,86067721,-1384465038,481454065],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;66845680,-1861336864,-1230804427,-1043227870],Slot:\"mainhand\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Dogfighter Crossbow\",\"italic\":false}',Lore:['{\"text\":\"Shields up!\",\"italic\":false}']},HideFlags:1,Unbreakable:1b,Enchantments:[{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:100s},{id:\"minecraft:quick_charge\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:15,Operation:0,UUID:[I;1134590166,-843166208,-1134836965,-1583825534],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;-1676453140,-149402937,-1892976708,744489206],Slot:\"mainhand\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Deathmatch Bow\",\"italic\":false}',Lore:['{\"text\":\"Either they die...\",\"italic\":false}','{\"text\":\"or you do.\",\"italic\":false}']},HideFlags:1,Unbreakable:1b,Enchantments:[{id:\"minecraft:power\",lvl:50s},{id:\"minecraft:punch\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:20,Operation:0,UUID:[I;-2139831149,-288207693,-1228475392,1150480290],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;1019157562,1102790758,-2092435499,2060792478],Slot:\"mainhand\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Reality Blade\",\"italic\":false}',Lore:['{\"text\":\"Make your own future.\",\"italic\":false}']},HideFlags:1,Unbreakable:1b,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:5s},{id:\"minecraft:looting\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:50,Operation:0,UUID:[I;-773312802,-2061677052,-1272607406,340166278],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:50,Operation:0,UUID:[I;-1778124789,-1364245740,-1090082464,1547349535],Slot:\"mainhand\"}]}"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:netherite_axe",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Breaker Greataxe\",\"italic\":false}',Lore:['{\"text\":\"A strong netherite axe...\",\"italic\":false}','{\"text\":\"is heavy and dangerous.\",\"italic\":false}']},Unbreakable:1b,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-756441802,-2082582961,-1954938062,-1163887190],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-1045731839,-1967306978,-1557180575,2061884902],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;2063820241,-1072017450,-2010965051,102070738],Slot:\"mainhand\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
