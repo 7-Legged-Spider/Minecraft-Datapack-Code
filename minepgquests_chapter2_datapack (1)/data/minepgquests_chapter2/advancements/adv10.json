@@ -1,0 +1,143 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill an Alien Fighter"
+        },
+        "description": {
+            "text": "Defeat an Alien Fighter, who are spawned via the manufacturer cores present in the Alien Ship."
+        },
+        "icon": {
+            "item": "minecraft:acacia_sapling"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 189,
+                                "max": 222
+                            },
+                            "y": {
+                                "min": 60,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": 165,
+                                "max": 193
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "kill2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 189,
+                                "max": 222
+                            },
+                            "y": {
+                                "min": 60,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": 165,
+                                "max": 193
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "kill3": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 189,
+                                "max": 222
+                            },
+                            "y": {
+                                "min": 60,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": 165,
+                                "max": 193
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "kill4": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 189,
+                                "max": 222
+                            },
+                            "y": {
+                                "min": 60,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": 165,
+                                "max": 193
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "kill5": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 189,
+                                "max": 222
+                            },
+                            "y": {
+                                "min": 60,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": 165,
+                                "max": 193
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

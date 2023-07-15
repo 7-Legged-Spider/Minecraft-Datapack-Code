@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "text": "Chapter 1 : The Desert of Fire",
+            "color": "dark_red",
+            "bold": true
+        },
+        "description": {
+            "text": "Begin your journey in the Spiral...",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 25,
+                        "max": 28
+                    },
+                    "y": {
+                        "min": 83,
+                        "max": 85
+                    },
+                    "z": {
+                        "min": 2,
+                        "max": 5
+                    }
+                }
+            }
+        }
+    }
+}

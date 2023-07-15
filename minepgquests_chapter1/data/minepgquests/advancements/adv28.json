@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Enter the Swamp"
+        },
+        "description": {
+            "text": "Find a way through the Mystical Swamp's shield."
+        },
+        "icon": {
+            "item": "minecraft:purple_stained_glass"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "locaton55": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 250,
+                        "max": 263
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 30
+                    },
+                    "z": {
+                        "min": -166,
+                        "max": -155
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv27"
+}

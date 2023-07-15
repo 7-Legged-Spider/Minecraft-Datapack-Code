@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Wither Skulls"
+        },
+        "description": {
+            "text": "Find two Wither Skulls..."
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "inventory2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wither_skeleton_skull",
+                        "count": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minepgquests_chapter3:adv3"
+}

@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Ikite-Shinu Estate"
+        },
+        "description": {
+            "text": "Find the abandoned Ikite-Shinu Estate."
+        },
+        "icon": {
+            "item": "minecraft:purple_concrete"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lcocccc": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 138,
+                        "max": 175
+                    },
+                    "y": {
+                        "min": 60,
+                        "max": 80
+                    },
+                    "z": {
+                        "min": -13,
+                        "max": 39
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

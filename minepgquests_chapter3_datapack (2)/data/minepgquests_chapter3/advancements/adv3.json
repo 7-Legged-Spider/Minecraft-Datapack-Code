@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Acquire the Alpha Ops Journal"
+        },
+        "description": {
+            "text": "Get the journal from Outpost Alpha and read its contents."
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "inventory": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 129,
+                        "max": 145
+                    },
+                    "y": {
+                        "min": 10,
+                        "max": 50
+                    },
+                    "z": {
+                        "min": -183,
+                        "max": -172
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter3:adv2"
+}

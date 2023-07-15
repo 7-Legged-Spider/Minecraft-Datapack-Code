@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Buy a Teleportation Gem"
+        },
+        "description": {
+            "text": "Buy and use a Teleportation Gem by holding the gem in your mainhand and a carrot on a stick in your offhand, and then right-clicking."
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "test": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

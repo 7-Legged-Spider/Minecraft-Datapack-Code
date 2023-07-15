@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill Arachne"
+        },
+        "description": {
+            "text": "Defeat Arachne, the monstrous spider hiding underneath the Plains Village."
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "death22": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "location": {
+                        "dimension": "overworld"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

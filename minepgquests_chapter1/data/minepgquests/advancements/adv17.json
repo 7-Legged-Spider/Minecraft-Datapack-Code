@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Snowton"
+        },
+        "description": {
+            "text": "Find Snowton, a village located in the snow and populated by farmers of various types."
+        },
+        "icon": {
+            "item": "minecraft:snow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "loc": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -87,
+                        "max": -43
+                    },
+                    "y": {
+                        "min": 60,
+                        "max": 69
+                    },
+                    "z": {
+                        "min": 85,
+                        "max": 142
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

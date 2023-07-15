@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Temple"
+        },
+        "description": {
+            "text": "Discover the Temple, where you can pray at an altar to change your team."
+        },
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "loc": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -31,
+                        "max": -56
+                    },
+                    "y": {
+                        "min": 60,
+                        "max": 85
+                    },
+                    "z": {
+                        "min": -16,
+                        "max": 9
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

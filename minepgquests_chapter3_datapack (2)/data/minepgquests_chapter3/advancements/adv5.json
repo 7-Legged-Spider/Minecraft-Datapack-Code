@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Find Chasm Outpost Beta"
+        },
+        "description": {
+            "text": "Find the first offshoot of the main Chasm Outpost."
+        },
+        "icon": {
+            "item": "minecraft:magenta_dye"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -219,
+                        "max": -213
+                    },
+                    "y": {
+                        "min": 20,
+                        "max": 40
+                    },
+                    "z": {
+                        "min": -49,
+                        "max": -37
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter3:adv1"
+}

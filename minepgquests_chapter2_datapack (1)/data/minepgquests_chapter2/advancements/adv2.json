@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill a Skeleton Boss Once"
+        },
+        "description": {
+            "text": "Kill any Skeleton Boss tier once."
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dest1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 133,
+                                "max": 170
+                            },
+                            "y": {
+                                "min": 40,
+                                "max": 80
+                            },
+                            "z": {
+                                "min": -13,
+                                "max": 4
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

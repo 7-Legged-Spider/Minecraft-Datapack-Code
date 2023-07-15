@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Mystical Swamp"
+        },
+        "description": {
+            "text": "Find the Mystical Swamp, which has been locked away by a mysterious group of wizards..."
+        },
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sodnd": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 229,
+                        "max": 275
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 100
+                    },
+                    "z": {
+                        "min": -179,
+                        "max": -133
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

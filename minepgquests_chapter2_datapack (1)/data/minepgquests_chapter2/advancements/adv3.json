@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill an Enderman Boss Once"
+        },
+        "description": {
+            "text": "Defeat any Vorpant once... they teleport far too easily."
+        },
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enderman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 74,
+                                "max": 156
+                            },
+                            "y": {
+                                "min": 0,
+                                "max": 200
+                            },
+                            "z": {
+                                "min": -118,
+                                "max": -88
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Sky Islands"
+        },
+        "description": {
+            "text": "Enter the Sky Islands, a collection of mysterious floating islands just above the perimeter of the Chasm."
+        },
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "locccca": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -10,
+                        "max": -1
+                    },
+                    "y": {
+                        "min": 150,
+                        "max": 160
+                    },
+                    "z": {
+                        "min": 197,
+                        "max": 206
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

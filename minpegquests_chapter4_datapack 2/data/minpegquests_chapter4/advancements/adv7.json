@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill the Insidious Reality Warper"
+        },
+        "description": {
+            "text": "Defeat the Insidious Reality Warper, murderer of worlds and reality-bending monster."
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "the_end",
+                        "position": {
+                            "x": {
+                                "min": 97,
+                                "max": 104
+                            },
+                            "y": {
+                                "min": 48,
+                                "max": 52
+                            },
+                            "z": {
+                                "min": 5,
+                                "max": 18
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "minepg:irwbossdeath"
+    },
+    "parent": "minpegquests_chapter4:irwboss"
+}

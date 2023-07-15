@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Acquire the Beta Ops Journal"
+        },
+        "description": {
+            "text": "Get and read the journal from the Beta Outpost."
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "33location3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -219,
+                        "max": -213
+                    },
+                    "y": {
+                        "min": 20,
+                        "max": 40
+                    },
+                    "z": {
+                        "min": -49,
+                        "max": -37
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter3:adv5"
+}

@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Find the Chasm Laboratory"
+        },
+        "description": {
+            "text": "Find the remains of the Chasm Main Laboratory."
+        },
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -155,
+                        "max": -131
+                    },
+                    "y": {
+                        "min": 60,
+                        "max": 90
+                    },
+                    "z": {
+                        "min": 184,
+                        "max": 203
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter3:root"
+}

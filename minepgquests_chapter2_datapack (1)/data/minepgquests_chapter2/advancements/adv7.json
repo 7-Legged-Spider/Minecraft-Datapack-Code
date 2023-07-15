@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill the God of the Sea"
+        },
+        "description": {
+            "text": "Defeat the God of the Sea, a wayward god who has lost his original vision."
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killled": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": -4,
+                                "max": 4
+                            },
+                            "y": {
+                                "min": 31,
+                                "max": 35
+                            },
+                            "z": {
+                                "min": 156,
+                                "max": 165
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

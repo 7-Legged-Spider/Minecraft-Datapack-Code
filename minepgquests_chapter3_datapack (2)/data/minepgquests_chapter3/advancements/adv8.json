@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Acquire the Gamma Ops Journal"
+        },
+        "description": {
+            "text": "Find and get the Gamma Ops Journal."
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "locaitoe": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 69,
+                        "max": 76
+                    },
+                    "y": {
+                        "min": 19,
+                        "max": 50
+                    },
+                    "z": {
+                        "min": 275,
+                        "max": 283
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter3:adv7"
+}

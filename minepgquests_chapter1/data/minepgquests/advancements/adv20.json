@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Merkingdom"
+        },
+        "description": {
+            "text": "Enter the Merkingdom, a place below the waters of the ocean close to the Chasm, and harboring the entrance to the Primordial Abyss."
+        },
+        "icon": {
+            "item": "minecraft:prismarine_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "locatiw": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 0,
+                        "max": 44
+                    },
+                    "y": {
+                        "min": 40,
+                        "max": 50
+                    },
+                    "z": {
+                        "min": 140,
+                        "max": 176
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

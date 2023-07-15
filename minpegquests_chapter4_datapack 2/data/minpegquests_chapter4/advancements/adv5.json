@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Find the Keymaster"
+        },
+        "description": {
+            "text": "Find and talk to the Keymaster, who will take your elemental shards to create a key..."
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "location5": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_end",
+                "position": {
+                    "x": {
+                        "min": 87,
+                        "max": 95
+                    },
+                    "y": {
+                        "min": 48,
+                        "max": 52
+                    },
+                    "z": {
+                        "min": -4,
+                        "max": 3
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minpegquests_chapter4:root"
+}

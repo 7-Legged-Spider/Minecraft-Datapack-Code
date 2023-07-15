@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Alien Pod"
+        },
+        "description": {
+            "text": "Find the crashed Alien Pod, which hides a dark secret..."
+        },
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lcococococ": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 244,
+                        "max": 270
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 20
+                    },
+                    "z": {
+                        "min": 65,
+                        "max": 88
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

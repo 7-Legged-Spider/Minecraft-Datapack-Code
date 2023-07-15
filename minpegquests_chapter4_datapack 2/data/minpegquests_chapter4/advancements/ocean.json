@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Find the Ocean Shards"
+        },
+        "description": {
+            "text": "Locate and acquire the Ocean Shards from the Primordial Abyss."
+        },
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 4,
+                        "max": 9
+                    },
+                    "y": {
+                        "min": 30,
+                        "max": 36
+                    },
+                    "z": {
+                        "min": 155,
+                        "max": 160
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minpegquests_chapter4:root"
+}

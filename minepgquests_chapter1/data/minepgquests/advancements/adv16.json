@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "The Netherack Caves"
+        },
+        "description": {
+            "text": "Enter the Netherack Caves, where the lava hides many secrets..."
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "eid": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_nether"
+            }
+        }
+    },
+    "parent": "minepgquests:adv15"
+}

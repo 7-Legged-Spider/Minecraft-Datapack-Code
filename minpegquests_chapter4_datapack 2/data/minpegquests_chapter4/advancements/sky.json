@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Find the Sky Shards"
+        },
+        "description": {
+            "text": "Locate and acquire the Sky Shards, found at the top of the Sky Spire."
+        },
+        "icon": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -19,
+                        "max": -17
+                    },
+                    "y": {
+                        "min": 182,
+                        "max": 185
+                    },
+                    "z": {
+                        "min": 210,
+                        "max": 213
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minpegquests_chapter4:root"
+}

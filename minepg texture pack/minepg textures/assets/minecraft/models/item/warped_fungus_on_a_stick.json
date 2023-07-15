@@ -1,0 +1,17 @@
+{
+    "parent": "item/handheld",
+        "textures": {
+        "layer0": "item/warped_fungus_on_a_stick"
+    },
+
+    "overrides": [
+        {"predicate": {"custom_model_data":1}, "model": "item/wooden_hoe"},
+        {"predicate": {"custom_model_data":2}, "model": "item/stone_hoe"},
+        {"predicate": {"custom_model_data":3}, "model": "item/iron_hoe"},
+        {"predicate": {"custom_model_data":4}, "model": "item/diamond_hoe"},
+        {"predicate": {"custom_model_data":5}, "model": "item/netherite_hoe"},
+        {"predicate": {"custom_model_data":6}, "model": "item/iron_shovel"},
+        {"predicate": {"custom_model_data":7}, "model": "item/diamond_shovel"},
+        {"predicate": {"custom_model_data":8}, "model": "item/golden_hoe"}
+    ]
+}

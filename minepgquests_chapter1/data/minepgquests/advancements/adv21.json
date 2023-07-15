@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Primordial Abyss"
+        },
+        "description": {
+            "text": "Enter the Primordial Abyss, a place where the undead merpeople lurk, disturbed by the visitors entering their abode..."
+        },
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "locationw2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 0,
+                        "max": 43
+                    },
+                    "y": {
+                        "min": 11,
+                        "max": 32
+                    },
+                    "z": {
+                        "min": 143,
+                        "max": 176
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv20"
+}

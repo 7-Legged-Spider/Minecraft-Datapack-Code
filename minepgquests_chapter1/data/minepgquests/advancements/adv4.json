@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Acquire Leather"
+        },
+        "description": {
+            "text": "Get some leather from the cows and use it to buy weapons and armour."
+        },
+        "icon": {
+            "item": "minecraft:leather"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "leather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather",
+                        "count": {
+                            "min": 10,
+                            "max": 10
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minepgquests:adv3"
+}

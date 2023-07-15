@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Look for Any Useful Structures"
+        },
+        "description": {
+            "text": "Try to find traces of some other people... or just something else."
+        },
+        "icon": {
+            "item": "minecraft:acacia_boat"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv1"
+}

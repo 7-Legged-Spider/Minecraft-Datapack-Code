@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Nether Meteor"
+        },
+        "description": {
+            "text": "Find the Nether Meteor, where the heat is rising and an entrance to the Netherack Caves is visible."
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nether": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -27,
+                        "max": 11
+                    },
+                    "y": {
+                        "min": 50,
+                        "max": 80
+                    },
+                    "z": {
+                        "min": -107,
+                        "max": -40
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

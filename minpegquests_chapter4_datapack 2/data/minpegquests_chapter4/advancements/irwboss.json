@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Enter the Arena"
+        },
+        "description": {
+            "text": "Enter the Arena of the Insidious Reality Warper..."
+        },
+        "icon": {
+            "item": "minecraft:netherite_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location7": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_end",
+                "position": {
+                    "x": {
+                        "min": 97,
+                        "max": 104
+                    },
+                    "y": {
+                        "min": 48,
+                        "max": 52
+                    },
+                    "z": {
+                        "min": 7,
+                        "max": 18
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minpegquests_chapter4:root"
+}

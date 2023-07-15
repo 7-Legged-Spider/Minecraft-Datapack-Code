@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Acaciatown"
+        },
+        "description": {
+            "text": "A small town located close to the Ikite-Shinu Estate, it was abandoned around the same time that the Estate was."
+        },
+        "icon": {
+            "item": "minecraft:acacia_door"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lcodoos": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 148,
+                        "max": 175
+                    },
+                    "y": {
+                        "min": 65,
+                        "max": 80
+                    },
+                    "z": {
+                        "min": -53,
+                        "max": -24
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

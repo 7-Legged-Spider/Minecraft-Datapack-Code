@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Chapter 3 : The Chasm Jumpers",
+            "color": "dark_red",
+            "bold": true
+        },
+        "description": {
+            "text": "Explore the secrets of the Chasm..."
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

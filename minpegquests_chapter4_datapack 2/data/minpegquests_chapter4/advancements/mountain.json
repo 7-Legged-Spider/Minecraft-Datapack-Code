@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Find the Mountain Shards"
+        },
+        "description": {
+            "text": "Locate and acquire the Mountain Shards from the hidden mountain cave near Acaciatown."
+        },
+        "icon": {
+            "item": "minecraft:flint"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 220,
+                        "max": 228
+                    },
+                    "y": {
+                        "min": 93,
+                        "max": 110
+                    },
+                    "z": {
+                        "min": -55,
+                        "max": -53
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minpegquests_chapter4:root"
+}

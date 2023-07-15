@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Enter the End Stronghold"
+        },
+        "description": {
+            "text": "Find a way to remove the barrier at the top of the Sky Spire and enter the End Stronghold."
+        },
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wow": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_end"
+            }
+        }
+    },
+    "parent": "minepgquests:adv18"
+}

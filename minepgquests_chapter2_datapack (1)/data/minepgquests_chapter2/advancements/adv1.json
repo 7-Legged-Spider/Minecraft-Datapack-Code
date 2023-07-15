@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill a Zombie Boss Once"
+        },
+        "description": {
+            "text": "Defeat any tier of Zombie Boss once."
+        },
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "death": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 180,
+                                "max": 200
+                            },
+                            "y": {
+                                "min": 40,
+                                "max": 80
+                            },
+                            "z": {
+                                "min": 60,
+                                "max": 80
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

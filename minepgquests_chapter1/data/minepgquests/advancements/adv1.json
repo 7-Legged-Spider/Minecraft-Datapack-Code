@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Find What Happened"
+        },
+        "description": {
+            "text": "Talk to one of the villagers, maybe they can tell you what happened."
+        },
+        "icon": {
+            "item": "minecraft:oak_sign"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "talk": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:root"
+}

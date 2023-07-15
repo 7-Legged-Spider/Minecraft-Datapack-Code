@@ -1,0 +1,145 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill a Zombified Merman"
+        },
+        "description": {
+            "text": "Kill a Zombified Merman, whose bodies are decaying and they still hold onto some old currency from their time."
+        },
+        "icon": {
+            "item": "minecraft:dark_oak_sapling"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": -4,
+                                "max": 29
+                            },
+                            "y": {
+                                "min": 0,
+                                "max": 30
+                            },
+                            "z": {
+                                "min": 128,
+                                "max": 202
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "kill2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": -4,
+                                "max": 29
+                            },
+                            "y": {
+                                "min": 0,
+                                "max": 30
+                            },
+                            "z": {
+                                "min": 128,
+                                "max": 202
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "kill3": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": -4,
+                                "max": 29
+                            },
+                            "y": {
+                                "min": 0,
+                                "max": 30
+                            },
+                            "z": {
+                                "min": 128,
+                                "max": 202
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "kill4": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": -4,
+                                "max": 29
+                            },
+                            "y": {
+                                "min": 0,
+                                "max": 30
+                            },
+                            "z": {
+                                "min": 128,
+                                "max": 202
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "kill5": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": -4,
+                                "max": 29
+                            },
+                            "y": {
+                                "min": 0,
+                                "max": 30
+                            },
+                            "z": {
+                                "min": 128,
+                                "max": 202
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Acquire a Rifle"
+        },
+        "description": {
+            "text": "Buy a Carrot Rifle from the Gunsmith and shoot it by using right-click."
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gun": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "minepgquests_chapter2:root"
+}

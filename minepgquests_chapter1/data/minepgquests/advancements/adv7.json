@@ -1,0 +1,44 @@
+{
+    "display": {
+        "title": {
+            "text": "Marauder Murder"
+        },
+        "description": {
+            "text": "Attempt to kill some Desert Marauders."
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": 53,
+                                "max": 122
+                            },
+                            "y": {
+                                "min": 50,
+                                "max": 74
+                            },
+                            "z": {
+                                "min": -45,
+                                "max": 56
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv6"
+}

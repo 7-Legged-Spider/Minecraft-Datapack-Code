@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Water Parasites"
+        },
+        "description": {
+            "text": "Acquire a bottle of Water Parasites..."
+        },
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "inventory8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:potion"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minepgquests_chapter3:adv11"
+}

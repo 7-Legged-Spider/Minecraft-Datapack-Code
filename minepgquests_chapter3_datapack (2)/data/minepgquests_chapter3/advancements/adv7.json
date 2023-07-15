@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Find Chasm Outpost Gamma"
+        },
+        "description": {
+            "text": "Find the second Chasm Outpost offshoot."
+        },
+        "icon": {
+            "item": "minecraft:soul_campfire"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 69,
+                        "max": 76
+                    },
+                    "y": {
+                        "min": 19,
+                        "max": 50
+                    },
+                    "z": {
+                        "min": 275,
+                        "max": 283
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter3:adv1"
+}

@@ -1,0 +1,95 @@
+{
+    "display": {
+        "title": {
+            "text": "Talk to an Alien"
+        },
+        "description": {
+            "text": "Talk to one of the Alien manufacturers to try to get an upgrade of some sort."
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "talk1": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 187,
+                                "max": 222
+                            },
+                            "y": {
+                                "min": 60,
+                                "max": 140
+                            },
+                            "z": {
+                                "min": 163,
+                                "max": 193
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "talk2": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 187,
+                                "max": 222
+                            },
+                            "y": {
+                                "min": 60,
+                                "max": 140
+                            },
+                            "z": {
+                                "min": 163,
+                                "max": 193
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "talk3": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": 187,
+                                "max": 222
+                            },
+                            "y": {
+                                "min": 60,
+                                "max": 140
+                            },
+                            "z": {
+                                "min": 163,
+                                "max": 193
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:adv10"
+}

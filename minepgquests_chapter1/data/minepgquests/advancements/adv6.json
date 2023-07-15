@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "The Meteor Desert"
+        },
+        "description": {
+            "text": "Discover the Meteor Desert, a firey desert where danger lurks..."
+        },
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "loca": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 62,
+                        "max": 145
+                    },
+                    "y": {
+                        "min": 60,
+                        "max": 80
+                    },
+                    "z": {
+                        "min": -63,
+                        "max": 57
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests:adv2"
+}

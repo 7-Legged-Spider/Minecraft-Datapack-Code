@@ -1,0 +1,70 @@
+{
+    "display": {
+        "title": {
+            "text": "Talk to the Merpeople"
+        },
+        "description": {
+            "text": "Talk to the Merpeople and hopefully you can get some helpful water weapons and gear."
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "talk4": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": -2,
+                                "max": 48
+                            },
+                            "y": {
+                                "min": 40,
+                                "max": 60
+                            },
+                            "z": {
+                                "min": 143,
+                                "max": 175
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "talk5": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "location": {
+                        "dimension": "overworld",
+                        "position": {
+                            "x": {
+                                "min": -4,
+                                "max": 43
+                            },
+                            "y": {
+                                "min": 40,
+                                "max": 60
+                            },
+                            "z": {
+                                "min": 141,
+                                "max": 176
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minepgquests_chapter2:adv12"
+}
